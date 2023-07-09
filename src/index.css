@@ -1,0 +1,37 @@
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}  
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select,
+p {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  opacity: 0.5;
+}  
+button {
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}  
+button:hover {
+  background-color:rgb(61, 187, 228);
+}
